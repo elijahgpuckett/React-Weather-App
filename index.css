@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montseratt", sans-serif;
+}
+
+.app {
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+.app.warm {
+}
+
+main {
+  min-height: 100vh;
+  background-image: url("./assets/sunny2bg.jpg");
+  background-size: 90%;
+}
+
+.search {
+  width: 100%;
+  margin: 0 0 75px;
+}
+.button {
+  width: 25%;
+  background: yellowgreen;
+}
+
+.search .searchBar {
+  display: block;
+  width: 50%;
+  padding: 15px;
+
+  appearance: none;
+  background: white;
+  outline: none;
+}
