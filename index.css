@@ -8,37 +8,60 @@ body {
   font-family: "montseratt", sans-serif;
 }
 
-.app {
+/*.allResults {
   background-color: lightgrey;
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
-}
-
-.app.warm {
-}
+  transition: 0.4 ease-in;
+}*/
 
 main {
   min-height: 100vh;
-  background-image: url("./assets/sunny2bg.jpg");
-  background-size: 90%;
+  background-image: url("./assets/Forest_Background-879.jpg");
+  background-size: 100%;
 }
 
 .search {
   width: 100%;
   margin: 0 0 75px;
-}
-.button {
-  width: 25%;
-  background: yellowgreen;
+  text-align: -webkit-center;
 }
 
 .search .searchBar {
   display: block;
-  width: 50%;
+  width: 30%;
   padding: 15px;
-
-  appearance: none;
-  background: white;
+  background: #ffffffad;
   outline: none;
+  border: outset;
+  border-radius: 20px 20px 20px;
 }
+
+.locationResults .location {
+  color: white;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 3px 3px 6px black;
+}
+
+.locationResults .date {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+
+.weatherBox {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.weatherBox .weather {
+  font-style: italic;
+}
+
+
